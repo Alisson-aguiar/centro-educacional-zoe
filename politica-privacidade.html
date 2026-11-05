@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!-- ============================================
+         META TAGS BÁSICAS E SEO
+         ============================================ -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#01afee">
+
+    <title>Política de Privacidade, LGPD e Cookies | Centro Educacional ZOE</title>
+    <meta name="description"
+        content="Saiba como o Centro Educacional ZOE coleta, usa e protege seus dados pessoais em conformidade com a LGPD. Acesse nossa Política de Privacidade e Cookies.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.centroeducacionalzoe.com.br/politica-privacidade.html">
+
+    <link rel="shortcut icon" href="img/logo_centro_educacional_zoe.webp" type="image/x-icon">
+
+    <!-- ============================================
+         OTIMIZAÇÃO DE FONTES E ÍCONES
+         ============================================ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="preload" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    </noscript>
+
+    <!-- ============================================
+         OTIMIZAÇÃO DE CSS
+         ============================================ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+<!-- Banner de Cookies -->
+<div id="cookie-banner" class="cookie-banner">
+    <div class="cookie-content">
+        <div class="cookie-icon">
+            <i class="fas fa-cookie-bite"></i>
+        </div>
+        <div class="cookie-text">
+            <h5>Nós valorizamos sua privacidade</h5>
+            <p>
+                Utilizamos cookies para melhorar sua experiência e analisar o tráfego.
+                Ao clicar em "Aceitar Todos", você concorda com nosso uso de cookies.
+                Saiba mais em nossa <a href="politica-privacidade.html">Política de Privacidade</a>.
+            </p>
+        </div>
+        <div class="cookie-buttons">
+            <button id="btn-accept-all" class="btn-cookie btn-cookie-primary">Aceitar Todos</button>
+            <button id="btn-essential" class="btn-cookie btn-cookie-outline">Apenas Essenciais</button>
+        </div>
+        <button id="btn-close-cookie" class="btn-cookie-close" aria-label="Fechar e aceitar apenas essenciais">
+            <i class="fas fa-times"></i>
+        </button>
+    </div>
+</div>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-content text-center">
+            <img src="img/logo_centro_educacional_zoe.webp" class="pulse-circle rounded-circle"
+                alt="Logo Centro Educacional Zoe" width="100" height="100">
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0" id="mainNavbar">
+            <div class="container-fluid p-0">
+                <a href="index.html" class="navbar-brand p-0">
+                    <img src="img/logo_centro_educacional_zoe.webp" alt="Logo" class="img-fluid rounded" width="100"
+                        height="100">
+                </a>
+
+                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+
+                <div class="nav-overlay" id="navOverlay"></div>
+
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <button class="close-menu-btn d-lg-none" id="closeMenuBtn" aria-label="Fechar menu">
+                        <i class="fas fa-times"></i>
+                    </button>
+
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link"><i
+                                class="fas fa-home text-primary me-2"></i>Início</a>
+                        <a href="index.html#quem-somos" class="nav-item nav-link"><i
+                                class="fas fa-info-circle text-primary me-2"></i>Quem somos</a>
+
+                        <div class="nav-item dropdown dropdown-hover">
+                            <a href="service.html" class="nav-link dropdown-toggle" id="servicesDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-graduation-cap text-primary me-2"></i>Nossos Serviços
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-lg" aria-labelledby="servicesDropdown">
+                                <div class="d-md-flex">
+                                    <div class="p-3 border-end">
+                                        <h6 class="dropdown-header text-primary fw-bold"><i
+                                                class="fas fa-child me-2"></i> Educação Infantil</h6>
+                                        <div class="d-grid gap-1">
+                                            <a class="dropdown-item d-flex align-items-center py-2"
+                                                href="nivel_II.html"><span
+                                                    class="badge bg-primary rounded-circle me-2">II</span>
+                                                <div><span class="d-block">Nível II</span><small class="text-muted">2
+                                                        anos</small></div>
+                                            </a>
+                                            <a class="dropdown-item d-flex align-items-center py-2"
+                                                href="nivel_III.html"><span
+                                                    class="badge bg-primary rounded-circle me-2">III</span>
+                                                <div><span class="d-block">Nível III</span><small class="text-muted">3
+                                                        anos</small></div>
+                                            </a>
+                                            <a class="dropdown-item d-flex align-items-center py-2"
+                                                href="nivel_IV.html"><span
+                                                    class="badge bg-primary rounded-circle me-2">IV</span>
+                                                <div><span class="d-block">Nível IV</span><small class="text-muted">4
+                                                        anos</small></div>
+                                            </a>
+                                            <a class="dropdown-item d-flex align-items-center py-2"
+                                                href="nivel_V.html"><span
+                                                    class="badge bg-primary rounded-circle me-2">V</span>
+                                                <div><span class="d-block">Nível V</span><small class="text-muted">5
+                                                        anos</small></div>
+                                            </a>
+                                            <a class="dropdown-item d-flex align-items-center py-2"
+                                                href="tempo_integral.html"><span
+                                                    class="badge bg-primary rounded-circle me-2">IN</span>
+                                                <div><span class="d-block">Tempo Integral</span><small
+                                                        class="text-muted">Todos os níveis</small></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="p-3">
+                                        <h6 class="dropdown-header text-primary fw-bold"><i
+                                                class="fas fa-book-open me-2"></i> Ensino Fundamental</h6>
+                                        <div class="d-grid gap-1">
+                                            <a class="dropdown-item d-flex align-items-center py-2"
+                                                href="1_ano.html"><span
+                                                    class="badge bg-primary rounded-circle me-2">1°</span>
+                                                <div><span class="d-block">1° Ano</span><small class="text-muted">6-7
+                                                        anos</small></div>
+                                            </a>
+                                            <a class="dropdown-item d-flex align-items-center py-2"
+                                                href="2_ano.html"><span
+                                                    class="badge bg-primary rounded-circle me-2">2°</span>
+                                                <div><span class="d-block">2° Ano</span><small class="text-muted">7-8
+                                                        anos</small></div>
+                                            </a>
+                                            <a class="dropdown-item d-flex align-items-center py-2"
+                                                href="3_ano.html"><span
+                                                    class="badge bg-primary rounded-circle me-2">3°</span>
+                                                <div><span class="d-block">3° Ano</span><small class="text-muted">8-9
+                                                        anos</small></div>
+                                            </a>
+                                            <a class="dropdown-item d-flex align-items-center py-2"
+                                                href="4_ano.html"><span
+                                                    class="badge bg-primary rounded-circle me-2">4°</span>
+                                                <div><span class="d-block">4° Ano</span><small class="text-muted">9-10
+                                                        anos</small></div>
+                                            </a>
+                                            <a class="dropdown-item d-flex align-items-center py-2"
+                                                href="5_ano.html"><span
+                                                    class="badge bg-primary rounded-circle me-2">5°</span>
+                                                <div><span class="d-block">5° Ano</span><small class="text-muted">10-11
+                                                        anos</small></div>
+                                            </a>
+                                            <a class="dropdown-item d-flex align-items-center py-2"
+                                                href="6_ano.html"><span
+                                                    class="badge bg-primary rounded-circle me-2">6°</span>
+                                                <div><span class="d-block">6° Ano</span><small class="text-muted">11-12
+                                                        anos</small></div>
+                                            </a>
+                                            <a class="dropdown-item d-flex align-items-center py-2"
+                                                href="7_ano.html"><span
+                                                    class="badge bg-primary rounded-circle me-2">7°</span>
+                                                <div><span class="d-block">7° Ano</span><small class="text-muted">12-13
+                                                        anos</small></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="index.html#nossos-diferenciais" class="nav-item nav-link"><i
+                                class="fas fa-star text-primary me-2"></i>Nossos diferenciais</a>
+                    </div>
+                    <a href="https://wa.me/558488166544?text=Olá,%20gostaria%20de%20mais%20informações" target="_blank"
+                        class="btn btn-primary-effect ms-lg-3 mt-3 mt-lg-0">Entre em contato</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Banner Simples -->
+        <header class="page-hero"
+            style="background-image: url('img/bg-lgbt.webp'); background-position: bottom left; min-height: 40vh;">
+            <div class="page-hero-overlay"
+                style="background: linear-gradient(90deg, rgba(13, 17, 23, 0.95) 0%, rgba(13, 17, 23, 0.85) 100%);">
+            </div>
+            <div class="container position-relative z-2 text-center">
+                <span class="hero-badge mb-3 wow fadeInDown" data-wow-delay="0.1s">
+                    <i class="fas fa-shield-alt me-2"></i>Transparência e Segurança
+                </span>
+                <h1 class="hero-title mb-4 wow fadeInUp" data-wow-delay="0.2s">
+                    Políticas de Privacidade
+                </h1>
+                <p class="hero-text mx-auto wow fadeInUp" data-wow-delay="0.3s" style="max-width: 600px;">
+                    Entenda como protegemos os seus dados e garantimos a sua privacidade em conformidade com a LGPD.
+                </p>
+            </div>
+        </header>
+    </div>
+
+    <!-- Content Start -->
+    <section class="py-5 bg-white">
+        <div class="container py-4">
+            <div class="row g-5">
+
+                <!-- Índice Lateral (Desktop) -->
+                <div class="col-lg-3 d-none d-lg-block wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="policy-toc">
+                        <h5 class="mb-3 text-dark fw-bold">Nesta página</h5>
+                        <a href="#lgpd">1. O que é a LGPD?</a>
+                        <a href="#privacidade">2. Política de Privacidade</a>
+                        <a href="#dados-coletados">3. Dados Coletados</a>
+                        <a href="#finalidade">4. Finalidade do Tratamento</a>
+                        <a href="#direitos">5. Seus Direitos</a>
+                        <a href="#cookies">6. Política de Cookies</a>
+                        <a href="#contato-dpo">7. Contato (DPO)</a>
+                    </div>
+                </div>
+
+                <!-- Texto Principal -->
+                <div class="col-lg-9 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="policy-content">
+                        <p class="mb-4">
+                            O <strong>Centro Educacional ZOE</strong> tem o compromisso de proteger a privacidade e a
+                            segurança dos dados pessoais de nossos alunos, pais, responsáveis e visitantes do site. Esta
+                            página unifica nossas diretrizes em conformidade com a <strong>Lei Geral de Proteção de
+                                Dados (Lei nº 13.709/2018)</strong>.
+                        </p>
+                        <p class="text-muted small mb-5"><em>Última atualização: 24 de Maio de 2024.</em></p>
+
+                        <!-- LGPD -->
+                        <article id="lgpd">
+                            <h2>1. O que é a LGPD?</h2>
+                            <p>A Lei Geral de Proteção de Dados (LGPD) estabelece regras sobre coleta, armazenamento,
+                                tratamento e compartilhamento de dados pessoais no Brasil. Seu objetivo é proteger os
+                                direitos fundamentais de liberdade e privacidade. O Centro Educacional ZOE atua como
+                                <strong>Controlador</strong> dos dados, ou seja, é a instituição responsável pelas
+                                decisões sobre o tratamento das informações que você nos fornece.</p>
+                        </article>
+
+                        <!-- Política de Privacidade -->
+                        <article id="privacidade">
+                            <h2>2. Política de Privacidade</h2>
+                            <p>Ao acessar o nosso site ou entrar em contato conosco, você concorda com as práticas
+                                descritas nesta política. Nós não vendemos, alugamos ou comercializamos seus dados
+                                pessoais com terceiros para fins de marketing.</p>
+                        </article>
+
+                        <!-- Dados Coletados -->
+                        <article id="dados-coletados">
+                            <h2>3. Quais dados nós coletamos?</h2>
+                            <p>Coletamos apenas os dados necessários para fornecer nossos serviços educacionais e
+                                responder às suas solicitações:</p>
+                            <ul>
+                                <li><strong>Dados de Identificação:</strong> Nome completo, CPF, RG, data de nascimento,
+                                    filiação (no ato da matrícula).</li>
+                                <li><strong>Dados de Contato:</strong> Endereço residencial, telefone (WhatsApp) e
+                                    endereço de e-mail.</li>
+                                <li><strong>Dados de Navegação:</strong> Endereço IP, localização geográfica aproximada,
+                                    tipo de navegador, páginas visitadas (via Cookies e Google Analytics).</li>
+                                <li><strong>Dados de Comunicação:</strong> Histórico de mensagens trocadas via WhatsApp,
+                                    e-mail ou formulários do site.</li>
+                            </ul>
+                        </article>
+
+                        <!-- Finalidade -->
+                        <article id="finalidade">
+                            <h2>4. Finalidade do Tratamento</h2>
+                            <p>Seus dados são utilizados para finalidades específicas e legítimas:</p>
+                            <ul>
+                                <li>Efetivar a matrícula e a gestão acadêmica do aluno;</li>
+                                <li>Comunicar informações sobre aulas, eventos, notas e ocorrências;</li>
+                                <li>Responder a dúvidas e solicitações de contato;</li>
+                                <li>Melhorar a experiência de navegação no site (métricas e estatísticas);</li>
+                                <li>Cumprir obrigações legais e regulatórias junto ao Ministério da Educação e demais
+                                    órgãos.</li>
+                            </ul>
+                        </article>
+
+                        <!-- Direitos -->
+                        <article id="direitos">
+                            <h2>5. Seus Direitos como Titular</h2>
+                            <p>A LGPD garante a você, a qualquer momento e mediante requisição, os seguintes direitos:
+                            </p>
+                            <ul>
+                                <li><strong>Confirmação e Acesso:</strong> Saber se tratamos seus dados e acessá-los.
+                                </li>
+                                <li><strong>Correção:</strong> Solicitar a atualização de dados incompletos ou
+                                    desatualizados.</li>
+                                <li><strong>Anonimização ou Eliminação:</strong> Solicitar a exclusão de dados
+                                    desnecessários ou excessivos.</li>
+                                <li><strong>Portabilidade:</strong> Transferir dados a outro fornecedor de serviço.</li>
+                                <li><strong>Revogação do Consentimento:</strong> Retirar o consentimento para
+                                    tratamentos baseados nele.</li>
+                            </ul>
+                        </article>
+
+                        <!-- Cookies -->
+                        <article id="cookies">
+                            <h2>6. Política de Cookies</h2>
+                            <p>Cookies são pequenos arquivos de texto armazenados no seu dispositivo para melhorar a sua
+                                experiência.</p>
+
+                            <h3>Tipos de Cookies que utilizamos:</h3>
+                            <ul>
+                                <li><strong>Essenciais:</strong> Necessários para o funcionamento básico do site (ex:
+                                    segurança).</li>
+                                <li><strong>Analíticos:</strong> Utilizamos ferramentas como o Google Analytics para
+                                    entender como os usuários navegam pelo site e, assim, melhorar o PageSpeed e o
+                                    conteúdo.</li>
+                                <li><strong>Marketing:</strong> Utilizados para direcionar anúncios em plataformas (caso
+                                    aplicável), de modo a mostrar apenas conteúdos relevantes para você.</li>
+                            </ul>
+                            <p>Você pode desativar os cookies nas configurações do seu navegador (Chrome, Safari,
+                                Firefox, Edge). No entanto, a desativação de cookies essenciais pode impactar o
+                                funcionamento do site.</p>
+                        </article>
+
+                        <!-- Contato DPO -->
+                        <article id="contato-dpo" class="mt-5 p-4 rounded-4"
+                            style="background: #f8f9ff; border: 1px solid rgba(1, 175, 238, 0.2);">
+                            <h2 class="mt-0 border-0 pb-0">7. Contato e Encarregado de Dados (DPO)</h2>
+                            <p class="mb-4">Se você tiver dúvidas sobre esta Política de Privacidade, sobre o tratamento
+                                de seus dados ou desejar exercer seus direitos como titular, entre em contato com o
+                                nosso Encarregado de Proteção de Dados (DPO):</p>
+
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="d-flex align-items-center bg-white p-3 rounded shadow-sm">
+                                        <i class="fas fa-envelope text-primary fa-lg me-3"></i>
+                                        <div>
+                                            <span class="d-block text-muted small fw-bold">E-mail do DPO</span>
+                                            <span class="text-dark">dpo@centroeducacionalzoe.com.br</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="d-flex align-items-center bg-white p-3 rounded shadow-sm">
+                                        <i class="fas fa-map-marker-alt text-primary fa-lg me-3"></i>
+                                        <div>
+                                            <span class="d-block text-muted small fw-bold">Endereço</span>
+                                            <span class="text-dark">Rua Pedra Branca, 747, Natal/RN</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Start -->
+    <footer class="footer-custom-bg wow fadeIn" data-wow-delay="0.2s">
+        <div class="footer-overlay"></div>
+        <div class="container pt-5 pb-4 position-relative z-2">
+            <div class="row g-4 g-lg-5">
+                <!-- Coluna 1: Logo e Redes Sociais -->
+                <div class="col-lg-4 col-xl-3 text-center text-lg-start">
+                    <div class="footer-brand">
+                        <a href="index.html" class="d-inline-block mb-4">
+                            <img src="img/logo_centro_educacional_zoe.webp" alt="Logo Centro Educacional ZOE"
+                                class="footer-logo img-fluid" loading="lazy" width="160" height="160">
+                        </a>
+                        <p class="text-white-50 mb-4 d-none d-lg-block">
+                            Formando mentes brilhantes e corações compassivos através de uma educação por princípios.
+                        </p>
+                        <div class="footer-social d-flex justify-content-center justify-content-lg-start gap-3">
+                            <a href="https://wa.me/558488166544?text=Olá,%20gostaria%20de%20mais%20informações"
+                                target="_blank" class="social-btn" aria-label="WhatsApp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <a href="https://www.instagram.com/centroedzoe/" target="_blank" class="social-btn"
+                                aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Coluna 2: Links Rápidos -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="footer-links">
+                        <h4 class="footer-title">Links Rápidos</h4>
+                        <ul class="list-unstyled mb-0">
+                            <li><a href="index.html" class="footer-link"><i class="fas fa-chevron-right"></i> Início</a>
+                            </li>
+                            <li><a href="index.html#quem-somos" class="footer-link"><i class="fas fa-chevron-right"></i>
+                                    Quem Somos</a></li>
+                            <li><a href="index.html#nossos-diferenciais" class="footer-link"><i
+                                        class="fas fa-chevron-right"></i> Nossos Diferenciais</a></li>
+                            <li><a href="politica-privacidade.html" class="footer-link"><i
+                                        class="fas fa-chevron-right"></i> Políticas de Privacidade</a></li>
+                            <li><a href="politica-privacidade.html#cookies" class="footer-link"><i
+                                        class="fas fa-chevron-right"></i> Termos e Condições</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Coluna 3: Horários -->
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="footer-hours">
+                        <h4 class="footer-title">Horários de Atendimento</h4>
+                        <ul class="list-unstyled mb-0">
+                            <li class="d-flex align-items-start mb-3">
+                                <i class="far fa-calendar-alt text-primary mt-1 me-3"></i>
+                                <div>
+                                    <span class="d-block text-white fw-bold">Segunda a Sexta</span>
+                                    <span class="text-white">07h às 18h</span>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-start">
+                                <i class="far fa-calendar-times text-primary mt-1 me-3"></i>
+                                <div>
+                                    <span class="d-block text-white fw-bold">Sáb, Dom e Feriados</span>
+                                    <span class="text-white">Fechado</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Coluna 4: Contatos -->
+                <div class="col-md-6 col-lg-12 col-xl-3">
+                    <div class="footer-contact">
+                        <h4 class="footer-title">Fale Conosco</h4>
+                        <ul class="list-unstyled mb-0">
+                            <li class="d-flex align-items-start mb-3">
+                                <i class="fas fa-map-marker-alt text-primary mt-1 me-3"></i>
+                                <span class="text-white">Rua Pedra Branca, 747<br>Natal/RN</span>
+                            </li>
+                            <li class="d-flex align-items-center mb-3">
+                                <i class="fas fa-phone-alt text-primary me-3"></i>
+                                <a href="https://wa.me/558488166544" target="_blank" class="footer-link p-0">(84)
+                                    98816-6544</a>
+                            </li>
+                            <li class="d-flex align-items-center mb-3">
+                                <i class="fas fa-envelope text-primary me-3"></i>
+                                <a href="mailto:secretaria@centroeducacionalzoe.com.br"
+                                    class="footer-link p-0 text-break">secretaria@centroeducacionalzoe.com.br</a>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <i class="fas fa-file-invoice text-primary me-3"></i>
+                                <span class="text-white">CNPJ: 43.767.733/0001-69</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-copyright position-relative z-2">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        <p class="mb-0 text-white">
+                            <i class="far fa-copyright text-primary me-2"></i>
+                            <span id="ano-atual"></span> Todos os direitos reservados ao <strong
+                                class="text-white">Centro Educacional ZOE</strong>.
+                        </p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <p class="mb-0 text-white">
+                            Desenvolvido por <a href="#"
+                                class="text-white fw-bold text-decoration-none hover-text-primary">Alisson Aguiar -
+                                Projetos Digitais</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================================
+         SCRIPTS OTIMIZADOS
+         ============================================ -->
+    <script>
+        document.getElementById("ano-atual").textContent = new Date().getFullYear();
+    </script>
+
+    <!-- Bibliotecas carregadas com Defer -->
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script defer src="lib/wow/wow.min.js"></script>
+    <script defer src="lib/easing/easing.min.js"></script>
+    <script defer src="lib/waypoints/waypoints.min.js"></script>
+
+    <!-- Script para fechar o menu mobile ao clicar nos links -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuLinks = document.querySelectorAll('.navbar-nav .nav-link:not(.dropdown-toggle), .navbar-nav .dropdown-item');
+            const navbarCollapse = document.getElementById('navbarCollapse');
+
+            if (navbarCollapse) {
+                menuLinks.forEach(link => {
+                    link.addEventListener('click', function () {
+                        if (navbarCollapse.classList.contains('show')) {
+                            const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse) || new bootstrap.Collapse(navbarCollapse, { toggle: false });
+                            bsCollapse.hide();
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+
+    <script defer src="js/main.js"></script>
+
+    <!-- VLibras - Acessibilidade em Libras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+</body>
+
+</html>

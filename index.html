@@ -1,0 +1,1534 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!-- ============================================
+         META TAGS BÁSICAS E SEO
+         ============================================ -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#01afee">
+
+    <title>Início - Centro Educacional ZOE</title>
+    <meta name="description"
+        content="Centro Educacional ZOE em Natal/RN. Educação por princípios, excelência acadêmica e desenvolvimento integral do Nível II ao Ensino Fundamental.">
+    <meta name="keywords"
+        content="Centro Educacional ZOE, escola Natal RN, educação infantil, ensino fundamental, educação por princípios">
+    <meta name="author" content="Centro Educacional ZOE">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <link rel="canonical" href="https://www.centroeducacionalzoe.com.br/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Início - Centro Educacional ZOE">
+    <meta property="og:description"
+        content="Formação integral que une excelência acadêmica e desenvolvimento de valores, preparando seus filhos para a vida.">
+    <meta property="og:url" content="https://www.centroeducacionalzoe.com.br/">
+    <meta property="og:image" content="https://www.centroeducacionalzoe.com.br/img/logo_centro_educacional_zoe.png">
+    <meta property="og:site_name" content="Centro Educacional ZOE">
+
+    <link rel="shortcut icon" href="img/logo_centro_educacional_zoe.webp" type="image/x-icon">
+
+    <!-- ============================================
+         OTIMIZAÇÃO DE FONTES (Google Fonts)
+         ============================================ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Carrega apenas os pesos necessários e usa display=swap para não travar a renderização -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- ============================================
+         OTIMIZAÇÃO DE ÍCONES (FontAwesome Assíncrono)
+         ============================================ -->
+    <link rel="preload" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    </noscript>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- ============================================
+         OTIMIZAÇÃO DE CSS (Não crítico carrega depois)
+         ============================================ -->
+    <!-- Bootstrap e Estilo Principal (Bloqueiam a renderização propositalmente para evitar FOUC) -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Bibliotecas secundárias (Carregamento Assíncrono) -->
+    <link rel="stylesheet" href="lib/lightbox/css/lightbox.min.css" media="print" onload="this.media='all'">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" media="print"
+        onload="this.media='all'">
+    <link href="lib/animate/animate.min.css" rel="stylesheet" media="print" onload="this.media='all'">
+</head>
+
+<body>
+    <!-- Banner de Cookies -->
+    <div id="cookie-banner" class="cookie-banner">
+        <div class="cookie-content">
+            <div class="cookie-icon">
+                <i class="fas fa-cookie-bite"></i>
+            </div>
+            <div class="cookie-text">
+                <h5>Nós valorizamos sua privacidade</h5>
+                <p>
+                    Utilizamos cookies para melhorar sua experiência e analisar o tráfego.
+                    Ao clicar em "Aceitar Todos", você concorda com nosso uso de cookies.
+                    Saiba mais em nossa <a href="politica-privacidade.html">Política de Privacidade</a>.
+                </p>
+            </div>
+            <div class="cookie-buttons">
+                <button id="btn-accept-all" class="btn-cookie btn-cookie-primary">Aceitar Todos</button>
+                <button id="btn-essential" class="btn-cookie btn-cookie-outline">Apenas Essenciais</button>
+            </div>
+            <button id="btn-close-cookie" class="btn-cookie-close" aria-label="Fechar e aceitar apenas essenciais">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- WhatsApp Flutuante -->
+    <a href="https://wa.me/558488166544?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20o%20Centro%20Educacional%20Zoe."
+        target="_blank" class="whatsapp-link" aria-label="Fale conosco no WhatsApp">
+        <img src="img/whatsapp.webp" alt="WhatsApp" width="80" height="80" fetchpriority="high">
+    </a>
+
+    <!-- Pop-up Matrículas 2027 -->
+    <div class="modal fade" id="matriculaModal" tabindex="-1" aria-labelledby="matriculaModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal">
+            <div class="modal-content border-0 rounded-4 overflow-hidden shadow-lg">
+                <div class="modal-body p-0 position-relative">
+                    <!-- Botão de Fechar Customizado -->
+                    <button type="button" class="btn-close-matricula" data-bs-dismiss="modal" aria-label="Close">
+                        <i class="fas fa-times"></i>
+                    </button>
+
+                    <!-- Imagem da Arte -->
+                    <!-- Substitua o src pela imagem real das matrículas -->
+                    <img src="img/matriculas-abertas-2027.webp" alt="Matrículas Abertas 2027 Centro Educacional ZOE"
+                        class="img-fluid w-100" loading="lazy" width="auto" height="400">
+                </div>
+                <div class="modal-footer border-0 bg-white justify-content-center p-3 p-md-4">
+                    <!-- Botão do WhatsApp -->
+                    <a href="https://wa.me/558488166544?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20as%20matrículas%20para%202027."
+                        target="_blank"
+                        class="btn btn-primary rounded-pill w-100 py-3 fw-bold shadow-sm btn-whatsapp-matricula">
+                        <i class="fab fa-whatsapp me-2 fa-lg"></i> Mais Informações no WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- VLibras - Acessibilidade em Libras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+    <!-- Botão Discreto (Fica acima do WhatsApp flutuante) -->
+    <button id="reopenMatriculaBtn" class="btn-matricula-flutuante d-none"
+        aria-label="Abrir informações de matrícula 2027">
+        <i class="fas fa-bullhorn"></i>
+        <span>Matrículas 2027</span>
+    </button>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-content text-center">
+            <img src="img/logo_centro_educacional_zoe.webp" class="pulse-circle rounded-circle"
+                alt="Logo Centro Educacional Zoe" width="100" height="100">
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0" id="mainNavbar">
+            <div class="container-fluid p-0">
+                <a href="index.html" class="navbar-brand p-0">
+                    <img src="img/logo_centro_educacional_zoe.webp" alt="Logo" class="img-fluid rounded" width="100"
+                        height="100">
+                </a>
+
+                <!-- Botão Hambúrguer Customizado -->
+                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+
+                <!-- Overlay escuro atrás do menu mobile -->
+                <div class="nav-overlay" id="navOverlay"></div>
+
+                <!-- Menu Collapse -->
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <button class="close-menu-btn d-lg-none" id="closeMenuBtn" aria-label="Fechar menu">
+                        <i class="fas fa-times"></i>
+                    </button>
+
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active"><i
+                                class="fas fa-home text-primary me-2"></i>Início</a>
+                        <a href="#quem-somos" class="nav-item nav-link"><i
+                                class="fas fa-info-circle text-primary me-2"></i>Quem somos</a>
+
+                        <!-- Dropdown Nossos Serviços -->
+                        <div class="nav-item dropdown dropdown-hover">
+                            <a href="service.html" class="nav-link dropdown-toggle" id="servicesDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-graduation-cap text-primary me-2"></i>Nossos Serviços
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-lg" aria-labelledby="servicesDropdown">
+                                <div class="d-md-flex">
+                                    <!-- Educação Infantil -->
+                                    <div class="p-3 border-end">
+                                        <h6 class="dropdown-header text-primary fw-bold">
+                                            <i class="fas fa-child me-2"></i> Educação Infantil
+                                        </h6>
+                                        <div class="d-grid gap-1">
+                                            <a class="dropdown-item d-flex align-items-center py-2"
+                                                href="nivel_II.html">
+                                                <span class="badge bg-primary rounded-circle me-2">II</span>
+                                                <div><span class="d-block">Nível II</span><small class="text-muted">2
+                                                        anos</small></div>
+                                            </a>
+                                            <a class="dropdown-item d-flex align-items-center py-2"
+                                                href="nivel_III.html">
+                                                <span class="badge bg-primary rounded-circle me-2">III</span>
+                                                <div><span class="d-block">Nível III</span><small class="text-muted">3
+                                                        anos</small></div>
+                                            </a>
+                                            <a class="dropdown-item d-flex align-items-center py-2"
+                                                href="nivel_IV.html">
+                                                <span class="badge bg-primary rounded-circle me-2">IV</span>
+                                                <div><span class="d-block">Nível IV</span><small class="text-muted">4
+                                                        anos</small></div>
+                                            </a>
+                                            <a class="dropdown-item d-flex align-items-center py-2" href="nivel_V.html">
+                                                <span class="badge bg-primary rounded-circle me-2">V</span>
+                                                <div><span class="d-block">Nível V</span><small class="text-muted">5
+                                                        anos</small></div>
+                                            </a>
+                                            <a class="dropdown-item d-flex align-items-center py-2"
+                                                href="tempo_integral.html">
+                                                <span class="badge bg-primary rounded-circle me-2">IN</span>
+                                                <div><span class="d-block">Tempo Integral</span><small
+                                                        class="text-muted">Para todos os níveis</small></div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <!-- Ensino Fundamental -->
+                                    <div class="p-3">
+                                        <h6 class="dropdown-header text-primary fw-bold">
+                                            <i class="fas fa-book-open me-2"></i> Ensino Fundamental
+                                        </h6>
+                                        <div class="d-grid gap-1">
+                                            <a class="dropdown-item d-flex align-items-center py-2" href="1_ano.html">
+                                                <span class="badge bg-primary rounded-circle me-2">1°</span>
+                                                <div><span class="d-block">1° Ano</span><small class="text-muted">6-7
+                                                        anos</small></div>
+                                            </a>
+                                            <a class="dropdown-item d-flex align-items-center py-2" href="2_ano.html">
+                                                <span class="badge bg-primary rounded-circle me-2">2°</span>
+                                                <div><span class="d-block">2° Ano</span><small class="text-muted">7-8
+                                                        anos</small></div>
+                                            </a>
+                                            <a class="dropdown-item d-flex align-items-center py-2" href="3_ano.html">
+                                                <span class="badge bg-primary rounded-circle me-2">3°</span>
+                                                <div><span class="d-block">3° Ano</span><small class="text-muted">8-9
+                                                        anos</small></div>
+                                            </a>
+                                            <a class="dropdown-item d-flex align-items-center py-2" href="4_ano.html">
+                                                <span class="badge bg-primary rounded-circle me-2">4°</span>
+                                                <div><span class="d-block">4° Ano</span><small class="text-muted">9-10
+                                                        anos</small></div>
+                                            </a>
+                                            <a class="dropdown-item d-flex align-items-center py-2" href="5_ano.html">
+                                                <span class="badge bg-primary rounded-circle me-2">5°</span>
+                                                <div><span class="d-block">5° Ano</span><small class="text-muted">10-11
+                                                        anos</small></div>
+                                            </a>
+                                            <a class="dropdown-item d-flex align-items-center py-2" href="6_ano.html">
+                                                <span class="badge bg-primary rounded-circle me-2">6°</span>
+                                                <div><span class="d-block">6° Ano</span><small class="text-muted">11-12
+                                                        anos</small></div>
+                                            </a>
+                                            <a class="dropdown-item d-flex align-items-center py-2" href="7_ano.html">
+                                                <span class="badge bg-primary rounded-circle me-2">7°</span>
+                                                <div><span class="d-block">7° Ano</span><small class="text-muted">12-13
+                                                        anos</small></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="#nossos-diferenciais" class="nav-item nav-link"><i
+                                class="fas fa-star text-primary me-2"></i>Nossos diferenciais</a>
+                    </div>
+
+                    <a href="https://wa.me/558488166544?text=Olá,%20gostaria%20de%20mais%20informações" target="_blank"
+                        class="btn btn-primary-effect ms-lg-3 mt-3 mt-lg-0">
+                        Entre em contato
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section Start -->
+        <section class="header-carousel-section">
+            <header class="header-carousel owl-carousel">
+
+                <!-- Banner 1 - Educação por Princípios (Prioridade Máxima no PageSpeed) -->
+                <article class="header-carousel-item">
+                    <img src="img/banner-01.webp" class="carousel-bg-img" alt="Crianças aprendendo na ZOE"
+                        fetchpriority="high" width="1920" height="1080">
+
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-10 col-xl-8">
+                                    <div class="text-center animated fadeInUp">
+                                        <h4 class="banner-subtitle">Centro Educacional ZOE</h4>
+                                        <h2 class="banner-title">
+                                            <i class="fa fa-book text-primary"></i>
+                                            Educação <span class="text-warning">por Princípios</span>
+                                        </h2>
+                                        <p class="banner-text">
+                                            Formação integral que une <strong>excelência acadêmica</strong> e
+                                            <strong>desenvolvimento de valores</strong>, preparando seus filhos para a
+                                            vida.
+                                        </p>
+
+                                        <div class="banner-buttons">
+                                            <a class="btn btn-light btn-hero"
+                                                href="https://wa.me/558488166544?text=Olá, gostaria de agendar uma visita!"
+                                                target="_blank">
+                                                <i class="fas fa-calendar-alt"></i> Agende uma Visita
+                                            </a>
+                                            <a class="btn btn-primary btn-hero"
+                                                href="https://wa.me/558488166544?text=Olá, gostaria de conhecer mais a metodologia da ZOE!"
+                                                target="_blank">
+                                                <i class="fas fa-graduation-cap"></i> Conheça a Metodologia
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Banner 2 - Atividades Extracurriculares -->
+                <article class="header-carousel-item">
+                    <img src="img/banner-02.webp" class="carousel-bg-img" alt="Atividades extracurriculares"
+                        loading="lazy" width="1920" height="1080">
+
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-10 col-xl-8">
+                                    <div class="text-center animated fadeInUp">
+                                        <h4 class="banner-subtitle">Desenvolvimento Integral</h4>
+                                        <h2 class="banner-title">
+                                            <i class="fas fa-heartbeat text-primary"></i>
+                                            Atividades de <span class="text-warning">Judô</span> & <span
+                                                class="text-warning">Ballet</span>
+                                        </h2>
+                                        <p class="banner-text">
+                                            Atividades que <strong>desenvolvem disciplina</strong>, <strong>expressão
+                                                corporal</strong> e <strong>autoconfiança</strong> como parte do nosso
+                                            currículo.
+                                        </p>
+
+                                        <div class="banner-buttons">
+                                            <a class="btn btn-light btn-hero"
+                                                href="https://wa.me/558488166544?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20as%20atividades%20de%20Judô%20e%20Ballet."
+                                                target="_blank" rel="noopener noreferrer" aria-label="Solicitar informações sobre Judô e Ballet pelo WhatsApp">
+                                                <i class="fas fa-child"></i> Atividades
+                                            </a>
+                                            <a class="btn btn-primary btn-hero" href="tempo_integral.html">
+                                                <i class="fas fa-clock"></i> Período Integral
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Banner 3 - Educação Bilíngue -->
+                <article class="header-carousel-item">
+                    <img src="img/banner-03.webp" class="carousel-bg-img" alt="Educação bilíngue" loading="lazy"
+                        width="1920" height="1080">
+
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-lg-10 col-xl-8">
+                                    <div class="text-center animated fadeInUp">
+                                        <h4 class="banner-subtitle">Formação Global</h4>
+                                        <h2 class="banner-title">
+                                            <i class="fas fa-language text-primary"></i>
+                                            Oferecemos <span class="text-warning">Educação</span> <span
+                                                class="text-danger">🇬🇧</span> <span
+                                                class="text-warning">Bilíngue</span>
+                                        </h2>
+                                        <p class="banner-text">
+                                            <strong>Fluência cultural</strong> e <strong>linguística</strong> desde os
+                                            primeiros anos, com <strong>imersão natural</strong> no segundo idioma.
+                                        </p>
+
+                                        <div class="banner-buttons">
+                                            <a class="btn btn-light btn-hero"
+                                                href="https://wa.me/558488166544?text=Olá, gostaria de saber mais sobre a educação bilingue!"
+                                                target="_blank">
+                                                <i class="fas fa-globe"></i> Saiba mais
+                                            </a>
+                                            <a class="btn btn-primary btn-hero"
+                                                href="https://wa.me/558488166544?text=Olá, tenho interesse na educação bilingue!"
+                                                target="_blank">
+                                                <i class="fas fa-phone-alt"></i> Entre em contato
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+            </header>
+        </section>
+        <!-- Hero Section End -->
+    </div>
+    <!-- Navbar & Hero End -->
+
+    <!-- Services Start -->
+    <section class="services-home py-5" id="servicos">
+        <div class="services-bg-shape shape-a"></div>
+        <div class="services-bg-shape shape-b"></div>
+
+        <div class="container py-4">
+            <header class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s">
+                <span class="badge bg-primary text-white rounded-pill px-4 py-2 mb-3">
+                    <i class="fas fa-graduation-cap me-2"></i>Nossos Serviços Educacionais
+                </span>
+                <h2 class="display-5 fw-bold mt-3 mb-4 text-purple">
+                    Excelência <span class="text-warning">Educacional com Propósito</span>
+                </h2>
+                <p class="lead text-muted mx-auto" style="max-width: 780px;">
+                    Do Nível II ao 5º ano, oferecemos uma formação completa que une excelência acadêmica, valores
+                    sólidos e desenvolvimento integral.
+                </p>
+            </header>
+
+            <!-- 3 Pilares - Service Cards -->
+            <div class="row g-4 mb-5 justify-content-center">
+
+                <!-- PILAR 1 - EDUCAÇÃO INFANTIL -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <article class="service-card">
+                        <div class="service-card-content">
+                            <div class="service-icon bg-primary text-white">
+                                <i class="fas fa-child"></i>
+                            </div>
+                            <span class="pillar-badge">Nível II ao V</span>
+                            <h4>Educação Infantil</h4>
+                            <p>Desenvolvimento integral em ambiente acolhedor e lúdico, estimulando a curiosidade
+                                natural e as primeiras descobertas.</p>
+
+                            <div class="pillar-levels">
+                                <span>Nível II</span>
+                                <span>Nível III</span>
+                                <span>Nível IV</span>
+                                <span>Nível V</span>
+                            </div>
+
+                            <a href="nivel_II.html" class="btn btn-primary-effect rounded-pill py-2 px-4 mt-3">
+                                Conhecer <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                        <div class="service-card-image" style="background-image: url('img/primeiro-nivel.webp');"></div>
+                    </article>
+                </div>
+
+                <!-- PILAR 2 - ENSINO FUNDAMENTAL I -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <article class="service-card">
+                        <div class="service-card-content">
+                            <div class="service-icon bg-primary text-white">
+                                <i class="fas fa-book-open"></i>
+                            </div>
+                            <span class="pillar-badge">1º ao 5º ano</span>
+                            <h4>Ensino Fundamental I</h4>
+                            <p>Consolidação do conhecimento com metodologia ativa, formando alunos críticos, autônomos e
+                                preparados para a vida.</p>
+
+                            <div class="pillar-levels">
+                                <span>1º Ano</span>
+                                <span>2º Ano</span>
+                                <span>3º Ano</span>
+                                <span>4º Ano</span>
+                                <span>5º Ano</span>
+                            </div>
+
+                            <a href="1_ano.html" class="btn btn-primary-effect rounded-pill py-2 px-4 mt-3">
+                                Conhecer <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                        <div class="service-card-image" style="background-image: url('img/ensino_fundamental.webp');">
+                        </div>
+                    </article>
+                </div>
+
+                <!-- PILAR 3 - ATIVIDADES EXTRACURRICULARES -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <article class="service-card">
+                        <div class="service-card-content">
+                            <div class="service-icon bg-primary text-white">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="pillar-badge">Desenvolvimento Integral</span>
+                            <h4>Atividades Extracurriculares</h4>
+                            <p>Experiências que enriquecem, habilidades que transformam e conquistas que inspiram.</p>
+
+                            <div class="pillar-levels">
+                                <span><i class="fas fa-language me-1"></i>Bilíngue</span>
+                                <span><i class="fas fa-user-ninja me-1"></i>Judô</span>
+                                <span><i class="fas fa-shoe-prints me-1"></i>Ballet</span>
+                                <span><i class="fas fa-clock me-1"></i>Integral</span>
+                            </div>
+
+                            <a href="https://wa.me/558488166544?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20as%20atividades%20extracurriculares."
+                                target="_blank" class="btn btn-primary-effect rounded-pill py-2 px-4 mt-3">
+                                Conhecer <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                        <div class="service-card-image" style="background-image: url('img/card-judo.webp');"></div>
+                    </article>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Services End -->
+
+    <!-- About Start -->
+    <section class="about-section py-5" id="quem-somos">
+        <div class="about-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+
+        <div class="about-shape shape-1"></div>
+        <div class="about-shape shape-2"></div>
+
+        <div class="container position-relative z-2 py-5">
+            <div class="row g-5 align-items-start">
+
+                <!-- COLUNA ESQUERDA - TEXTO + CARDS 3D -->
+                <div class="col-lg-7 wow fadeInLeft" data-wow-delay="0.2s">
+                    <header class="about-header mb-5">
+                        <span class="badge bg-primary text-white rounded-pill px-4 py-2 mb-3">
+                            <i class="fas fa-graduation-cap me-2"></i>Nossa Jornada Educacional
+                        </span>
+                        <h2 class="about-title">
+                            Educação por <span class="text-warning">Princípios,<br class="d-none d-md-block"> Excelência
+                                por Tradição</span>
+                        </h2>
+                        <p class="about-text">
+                            No Centro Educacional ZOE, cultivamos mentes brilhantes e corações compassivos através de
+                            uma abordagem educacional única que combina formação acadêmica sólida com desenvolvimento de
+                            valores cristãos.
+                        </p>
+                        <p class="about-text mb-0">
+                            Nossa missão é formar cidadãos íntegros, críticos e preparados para os desafios do futuro,
+                            oferecendo um ambiente acolhedor onde cada criança é valorizada em sua individualidade. Do
+                            Nível II ao 5º ano, unimos excelência acadêmica, formação de caráter e desenvolvimento
+                            socioemocional em uma jornada educacional transformadora.
+                        </p>
+                    </header>
+
+                    <!-- Cards 3D - Lado a Lado -->
+                    <div class="row g-4 justify-content-center">
+                        <!-- Card Educação Infantil -->
+                        <div class="col-md-12">
+                            <article class="card-3d-wrapper">
+                                <div class="card-3d card-infantil">
+                                    <div class="glass-3d"></div>
+                                    <div class="logo-3d">
+                                        <span class="circle c1"></span>
+                                        <span class="circle c2"></span>
+                                        <span class="circle c3"></span>
+                                        <span class="circle c4"></span>
+                                        <span class="circle c5">
+                                            <i class="fas fa-child"></i>
+                                        </span>
+                                    </div>
+                                    <div class="content-3d">
+                                        <span class="badge-3d">
+                                            <i class="fas fa-star me-1"></i> Nível II ao V
+                                        </span>
+                                        <h3 class="title-3d">
+                                            <i class="fas fa-baby-carriage me-2"></i> Educação Infantil
+                                        </h3>
+                                        <p class="text-3d">
+                                            Desenvolvimento integral da criança em um ambiente acolhedor e lúdico,
+                                            estimulando a curiosidade natural e as primeiras descobertas.
+                                        </p>
+                                    </div>
+                                    <div class="bottom-3d">
+                                        <div class="features-3d">
+                                            <ul>
+                                                <li class="feature-tag"><i class="fas fa-puzzle-piece"></i> Lúdico</li>
+                                                <li class="feature-tag"><i class="fas fa-heart"></i> Socialização</li>
+                                            </ul>
+                                        </div>
+                                        <div class="view-more-3d">
+                                            <a href="#educacao-infantil" class="btn-more">
+                                                Conhecer <i class="fas fa-arrow-right ms-1"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!-- Card Ensino Fundamental I -->
+                        <div class="col-12">
+                            <article class="card-3d-wrapper">
+                                <div class="card-3d card-fundamental">
+                                    <div class="glass-3d"></div>
+                                    <div class="logo-3d">
+                                        <span class="circle c1"></span>
+                                        <span class="circle c2"></span>
+                                        <span class="circle c3"></span>
+                                        <span class="circle c4"></span>
+                                        <span class="circle c5">
+                                            <i class="fas fa-school"></i>
+                                        </span>
+                                    </div>
+                                    <div class="content-3d">
+                                        <span class="badge-3d badge-fundamental">
+                                            <i class="fas fa-star me-1"></i> 1º ao 5º ano
+                                        </span>
+                                        <h3 class="title-3d">
+                                            <i class="fas fa-book-open me-2"></i> Ensino Fundamental I
+                                        </h3>
+                                        <p class="text-3d">
+                                            Consolidação do conhecimento com metodologia ativa, formando alunos
+                                            críticos, autônomos e preparados para os desafios da vida.
+                                        </p>
+                                    </div>
+                                    <div class="bottom-3d">
+                                        <div class="features-3d">
+                                            <ul>
+                                                <li class="feature-tag feature-fundamental"><i
+                                                        class="fas fa-book-reader"></i> Alfabetização</li>
+                                                <li class="feature-tag feature-fundamental"><i
+                                                        class="fas fa-calculator"></i> Lógica</li>
+                                            </ul>
+                                        </div>
+                                        <div class="view-more-3d">
+                                            <a href="#ensino-fundamental" class="btn-more btn-more-fundamental">
+                                                Conhecer <i class="fas fa-arrow-right ms-1"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <!-- Call to Action -->
+                    <div class="mt-5 text-center text-md-start">
+                        <a href="https://wa.me/558488166544?text=Olá, gostaria de agendar uma visita!" target="_blank"
+                            class="btn btn-primary btn-lg rounded-pill px-5 py-3 shadow-lg cta-visit">
+                            <i class="fas fa-calendar-check me-2"></i> Agende uma Visita
+                            <span
+                                class="ms-2 badge bg-light text-primary rounded-pill d-none d-sm-inline-block">Gratuita</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- COLUNA DIREITA - VÍDEO DO INSTAGRAM -->
+                <div class="col-lg-5 wow fadeInRight" data-wow-delay="0.3s">
+                    <aside class="video-instagram-wrapper">
+                        <!-- Header do bloco de vídeo -->
+                        <div class="video-instagram-header">
+                            <div class="video-instagram-icon">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <div>
+                                <h4>Conheça a ZOE</h4>
+                                <p>Um pouco do nosso dia a dia</p>
+                            </div>
+                        </div>
+
+                        <!-- Container do Embed do Instagram (Lazy Load) -->
+                        <div class="video-instagram-embed position-relative" id="instagramEmbedContainer">
+                            <!-- Capa Fake para não carregar o script do Instagram pesado de cara -->
+                            <img src="img/capa-instagram.webp" alt="Assista ao vídeo no Instagram"
+                                class="img-fluid rounded-3 w-100" style="cursor: pointer;" id="loadInstagramBtn"
+                                loading="lazy" width="500" height="600">
+
+                            <!-- Ícone de Play sobre a capa -->
+                            <div id="playIconOverlay" class="position-absolute top-50 start-50 translate-middle text-white cursor-pointer"
+                                style="font-size: 3rem; text-shadow: 0 4px 10px rgba(0,0,0,0.5); z-index: 2;">
+                                <i class="fab fa-instagram"></i> <i class="fas fa-play-circle"></i>
+                            </div>
+
+                            <!-- O Embed Real (Fica escondido até o clique) -->
+                            <!-- O Embed Real (Fica escondido até o clique) -->
+                            <div id="instagramRealEmbed" class="d-none w-100">
+                                <blockquote class="instagram-media" data-instgrm-captioned
+                                    data-instgrm-permalink="https://www.instagram.com/reel/DfVcU1DiBri/?utm_source=ig_embed&amp;utm_campaign=loading"
+                                    data-instgrm-version="14"
+                                    style=" background:#FFF; border:0; border-radius:18px; box-shadow:none; margin:0; max-width:100%; min-width:100%; padding:0; width:100%;">
+                                    <div style="padding:16px;">
+                                        <a href="https://www.instagram.com/reel/DfVcU1DiBri/?utm_source=ig_embed&amp;utm_campaign=loading"
+                                            style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;"
+                                            target="_blank">
+                                            <div style=" display: flex; flex-direction: row; align-items: center;">
+                                                <div
+                                                    style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;">
+                                                </div>
+                                                <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+                                                    <div
+                                                        style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;">
+                                                    </div>
+                                                    <div
+                                                        style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style="padding: 19% 0;"></div>
+                                            <div style="display:block; height:50px; margin:0 auto 12px; width:50px;">
+                                                <svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1"
+                                                    xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+                                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                        <g transform="translate(-511.000000, -20.000000)" fill="#000000">
+                                                            <g>
+                                                                <path
+                                                                    d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631">
+                                                                </path>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                            <div style="padding-top: 8px;">
+                                                <div
+                                                    style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">
+                                                    Ver esse post no Instagram
+                                                </div>
+                                            </div>
+                                            <div style="padding: 12.5% 0;"></div>
+                                            <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
+                                                <div>
+                                                    <div
+                                                        style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);">
+                                                    </div>
+                                                    <div
+                                                        style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;">
+                                                    </div>
+                                                    <div
+                                                        style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);">
+                                                    </div>
+                                                </div>
+                                                <div style="margin-left: 8px;">
+                                                    <div
+                                                        style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;">
+                                                    </div>
+                                                    <div
+                                                        style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)">
+                                                    </div>
+                                                </div>
+                                                <div style="margin-left: auto;">
+                                                    <div
+                                                        style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);">
+                                                    </div>
+                                                    <div
+                                                        style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);">
+                                                    </div>
+                                                    <div
+                                                        style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div
+                                                style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;">
+                                                <div
+                                                    style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;">
+                                                </div>
+                                                <div
+                                                    style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;">
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <p
+                                            style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+                                            <a href="https://www.instagram.com/reel/DfVcU1DiBri/?utm_source=ig_embed&amp;utm_campaign=loading"
+                                                style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
+                                                target="_blank">
+                                                Um post compartilhado por Centro Educacional ZOE (@centroedzoe)
+                                            </a>
+                                        </p>
+                                    </div>
+                                </blockquote>
+                            </div>
+                        </div>
+
+                        <!-- Rodapé do bloco -->
+                        <div class="video-instagram-footer">
+                            <a href="https://www.instagram.com/centroeducacionalzoe/" target="_blank"
+                                class="btn-instagram">
+                                <i class="fab fa-instagram me-2"></i> Siga-nos no Instagram
+                            </a>
+                        </div>
+                    </aside>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- About End -->
+
+    <!-- Diferenciais Exclusivos - ROADMAP -->
+    <section class="roadmap-section" id="nossos-diferenciais">
+        <div class="roadmap-bg-shape shape-1"></div>
+        <div class="roadmap-bg-shape shape-2"></div>
+        <div class="roadmap-bg-shape shape-3"></div>
+        <div class="roadmap-grid"></div>
+
+        <div class="container py-5 position-relative z-2">
+            <header class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s">
+                <span class="badge bg-primary text-white rounded-pill px-4 py-2 mb-3">
+                    <i class="fas fa-route me-2"></i>Nossa Jornada
+                </span>
+                <h2 class="display-4 text-purple fw-bold mt-3 mb-3">
+                    O que nos torna <span class="text-warning">únicos e especiais</span>
+                </h2>
+                <p class="lead text-muted mx-auto" style="max-width: 700px;">
+                    Um caminho construído com propósito, onde cada diferencial é um passo em direção à excelência
+                    educacional e ao desenvolvimento integral.
+                </p>
+            </header>
+
+            <!-- Roadmap / Timeline -->
+            <div class="roadmap-container">
+                <div class="roadmap-line">
+                    <div class="roadmap-line-progress" id="roadmapProgress"></div>
+                </div>
+
+                <!-- Item 1 -->
+                <article class="roadmap-item wow fadeInUp" data-wow-delay="0.1s" data-step="1">
+                    <div class="roadmap-card roadmap-card-left">
+                        <div class="roadmap-card-glow glow-blue"></div>
+                        <div class="roadmap-card-inner">
+                            <div class="roadmap-icon gradient-blue">
+                                <i class="fas fa-user-graduate"></i>
+                            </div>
+                            <div class="roadmap-content">
+                                <span class="roadmap-step">Passo 01</span>
+                                <h4>Preparação Integral</h4>
+                                <p>Desenvolvimento acadêmico, emocional e social para formar cidadãos completos e
+                                    preparados para os desafios futuros.</p>
+                            </div>
+                            <div class="roadmap-card-number">01</div>
+                        </div>
+                    </div>
+                    <div class="roadmap-marker">
+                        <div class="roadmap-marker-dot"></div>
+                        <div class="roadmap-marker-ring"></div>
+                    </div>
+                    <div class="roadmap-spacer"></div>
+                </article>
+
+                <!-- Item 2 -->
+                <article class="roadmap-item wow fadeInUp" data-wow-delay="0.2s" data-step="2">
+                    <div class="roadmap-spacer"></div>
+                    <div class="roadmap-marker">
+                        <div class="roadmap-marker-dot"></div>
+                        <div class="roadmap-marker-ring"></div>
+                    </div>
+                    <div class="roadmap-card roadmap-card-right">
+                        <div class="roadmap-card-glow glow-green"></div>
+                        <div class="roadmap-card-inner">
+                            <div class="roadmap-icon gradient-green">
+                                <i class="fas fa-chalkboard-teacher"></i>
+                            </div>
+                            <div class="roadmap-content">
+                                <span class="roadmap-step">Passo 02</span>
+                                <h4>Corpo Docente Qualificado</h4>
+                                <p>Professores especializados e em constante formação, comprometidos com a excelência
+                                    educacional.</p>
+                            </div>
+                            <div class="roadmap-card-number">02</div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Item 3 -->
+                <article class="roadmap-item wow fadeInUp" data-wow-delay="0.3s" data-step="3">
+                    <div class="roadmap-card roadmap-card-left">
+                        <div class="roadmap-card-glow glow-orange"></div>
+                        <div class="roadmap-card-inner">
+                            <div class="roadmap-icon gradient-orange">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <div class="roadmap-content">
+                                <span class="roadmap-step">Passo 03</span>
+                                <h4>Tecnologia Educacional</h4>
+                                <p>Infraestrutura tecnológica avançada e integração de recursos digitais no processo de
+                                    aprendizagem.</p>
+                            </div>
+                            <div class="roadmap-card-number">03</div>
+                        </div>
+                    </div>
+                    <div class="roadmap-marker">
+                        <div class="roadmap-marker-dot"></div>
+                        <div class="roadmap-marker-ring"></div>
+                    </div>
+                    <div class="roadmap-spacer"></div>
+                </article>
+
+                <!-- Item 4 -->
+                <article class="roadmap-item wow fadeInUp" data-wow-delay="0.4s" data-step="4">
+                    <div class="roadmap-spacer"></div>
+                    <div class="roadmap-marker">
+                        <div class="roadmap-marker-dot"></div>
+                        <div class="roadmap-marker-ring"></div>
+                    </div>
+                    <div class="roadmap-card roadmap-card-right">
+                        <div class="roadmap-card-glow glow-cyan"></div>
+                        <div class="roadmap-card-inner">
+                            <div class="roadmap-icon gradient-cyan">
+                                <i class="fas fa-heartbeat"></i>
+                            </div>
+                            <div class="roadmap-content">
+                                <span class="roadmap-step">Passo 04</span>
+                                <h4>Acompanhamento Individual</h4>
+                                <p>Atendimento personalizado com monitoramento contínuo do desenvolvimento de cada
+                                    aluno.</p>
+                            </div>
+                            <div class="roadmap-card-number">04</div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Item 5 -->
+                <article class="roadmap-item wow fadeInUp" data-wow-delay="0.5s" data-step="5">
+                    <div class="roadmap-card roadmap-card-left">
+                        <div class="roadmap-card-glow glow-pink"></div>
+                        <div class="roadmap-card-inner">
+                            <div class="roadmap-icon gradient-pink">
+                                <i class="fas fa-seedling"></i>
+                            </div>
+                            <div class="roadmap-content">
+                                <span class="roadmap-step">Passo 05</span>
+                                <h4>Ambiente Sustentável</h4>
+                                <p>Espaços verdes, educação ambiental e práticas sustentáveis integradas ao currículo.
+                                </p>
+                            </div>
+                            <div class="roadmap-card-number">05</div>
+                        </div>
+                    </div>
+                    <div class="roadmap-marker">
+                        <div class="roadmap-marker-dot"></div>
+                        <div class="roadmap-marker-ring"></div>
+                    </div>
+                    <div class="roadmap-spacer"></div>
+                </article>
+
+                <!-- Item 6 - Final -->
+                <article class="roadmap-item roadmap-item-final wow fadeInUp" data-wow-delay="0.6s" data-step="6">
+                    <div class="roadmap-spacer"></div>
+                    <div class="roadmap-marker roadmap-marker-final">
+                        <div class="roadmap-marker-dot">
+                            <i class="fas fa-flag-checkered"></i>
+                        </div>
+                        <div class="roadmap-marker-ring"></div>
+                    </div>
+                    <div class="roadmap-card roadmap-card-right">
+                        <div class="roadmap-card-glow glow-purple"></div>
+                        <div class="roadmap-card-inner">
+                            <div class="roadmap-icon gradient-purple">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <div class="roadmap-content">
+                                <span class="roadmap-step">Passo 06 — Destino</span>
+                                <h4>Parceria Família-Escola</h4>
+                                <p>Comunicação constante e participação ativa das famílias no processo educacional.</p>
+                            </div>
+                            <div class="roadmap-card-number">06</div>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+            <!-- CTA Final -->
+            <div class="text-center mt-5 pt-4 wow fadeInUp" data-wow-delay="0.8s">
+                <a href="https://wa.me/558488166544?text=Olá, gostaria de conhecer os diferenciais da ZOE!"
+                    target="_blank" class="btn btn-primary rounded-pill px-5 py-4">
+                    <i class="fas fa-calendar-check me-2"></i> Agende uma Visita
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Eventos Start -->
+    <section class="events-section py-5 bg-light" id="nossos-eventos">
+        <div class="container py-5">
+            <header class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s">
+                <span class="badge bg-primary text-white rounded-pill px-4 py-2 mb-3">
+                    <i class="fas fa-camera-retro me-2"></i>Memórias ZOE
+                </span>
+                <h2 class="display-4 text-purple fw-bold mt-3 mb-3">
+                    Celebrando <span class="text-warning">Aprendizados e Conquistas</span>
+                </h2>
+                <p class="lead text-muted mx-auto" style="max-width: 700px;">
+                    Cada evento é uma página única na nossa história, repleta de momentos que inspiram, conexões que
+                    transformam e conquistas que nos enchem de orgulho.
+                </p>
+            </header>
+
+            <!-- Grid de Eventos -->
+            <div class="row g-4 justify-content-center">
+                <!-- Card Único - Independência do Brasil -->
+                <div class="col-md-8 col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <article class="event-card">
+                        <!-- Imagem -->
+                        <div class="event-image-wrap">
+                            <img src="img/desfile-2026/desfile-2026.webp" class="event-img"
+                                alt="Desfile de 7 de Setembro" loading="lazy" width="800" height="600">
+                            <div class="event-overlay"></div>
+
+                            <!-- Badge -->
+                            <div class="event-badge">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>Setembro</span>
+                            </div>
+                        </div>
+
+                        <!-- Conteúdo -->
+                        <div class="event-content">
+                            <div class="event-icon">
+                                <i class="fas fa-flag"></i>
+                            </div>
+                            <h3 class="event-title">Independência do Brasil</h3>
+                            <p class="event-desc">
+                                Celebração cívica com desfile, apresentações culturais e trabalhos históricos produzidos
+                                pelos nossos alunos.
+                            </p>
+
+                            <!-- Botão do Modal -->
+                            <button class="event-btn" data-bs-toggle="modal" data-bs-target="#galleryModal"
+                                data-title="Desfile de 7 de Setembro 2026"
+                                data-description="Celebração da pátria com desfile cívico, apresentações culturais e trabalhos sobre a história do Brasil."
+                                data-images='[
+                                        "img/desfile-2026/desfile-2026.webp",
+                                        "img/desfile-2026/desfile-2026-02.webp",
+                                        "img/desfile-2026/desfile-2026-03.webp",
+                                        "img/desfile-2026/desfile-2026-04.webp",
+                                        "img/desfile-2026/desfile-2026-05.webp",
+                                        "img/desfile-2026/desfile-2026-06.webp",
+                                        "img/desfile-2026/desfile-2026-07.webp",
+                                        "img/desfile-2026/desfile-2026-08.webp",
+                                        "img/desfile-2026/desfile-2026-09.webp",
+                                        "img/desfile-2026/desfile-2026-10.webp",
+                                        "img/desfile-2026/desfile-2026-11.webp"
+                                    ]'>
+                                Ver Galeria <i class="fas fa-images ms-2"></i>
+                            </button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Eventos End -->
+
+    <!-- Modal Galeria Moderna -->
+    <div class="modal fade" id="galleryModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content border-0 rounded-4 shadow-lg">
+                <!-- Header do Modal -->
+                <div class="modal-header border-0 pb-0">
+                    <div>
+                        <h4 class="modal-title fw-bold text-dark mb-1" id="galleryModalLabel">Título do Evento</h4>
+                        <p class="modal-description text-muted small mb-0">Descrição do evento.</p>
+                    </div>
+                    <button type="button" class="btn-close bg-light rounded-circle p-3" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <!-- Corpo do Modal (Grid de Imagens) -->
+                <div class="modal-body pt-4">
+                    <div class="row g-3" id="galleryImagesGrid">
+                        <!-- As imagens serão inseridas aqui via JavaScript -->
+                    </div>
+                </div>
+                <!-- Rodapé -->
+                <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-primary rounded-pill px-4" data-bs-dismiss="modal">Fechar
+                        Galeria</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lightbox (Para ampliar a imagem) -->
+    <div class="modal fade" id="lightboxModal" tabindex="-1" aria-hidden="true" style="z-index: 1060;">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content lightbox-content">
+                <div class="lightbox-image-wrapper">
+                    <button type="button" class="btn-close-lightbox" data-bs-dismiss="modal" aria-label="Close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <button type="button" class="btn-lightbox-prev" id="lightboxPrev" aria-label="Imagem anterior">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <img src="" id="lightboxImage" class="img-fluid" alt="Zoom da Imagem">
+                    <button type="button" class="btn-lightbox-next" id="lightboxNext" aria-label="Próxima imagem">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQs Start -->
+    <section class="faq-section" id="faq">
+        <div class="container py-5">
+            <div class="row g-5 align-items-start py-4">
+                <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.2s">
+                    <header class="faq-header text-start mb-5">
+                        <span class="badge bg-primary text-white rounded-pill px-4 py-2 mb-3">
+                            <i class="fas fa-comments me-2"></i>Perguntas Frequentes
+                        </span>
+                        <h2 class="display-4 text-purple fw-bold mt-3 mb-3">
+                            Encontre Respostas para <br class="d-none d-md-block"><span class="text-warning">Suas
+                                Perguntas</span>
+                        </h2>
+                        <p class="faq-subtitle text-dark">
+                            Reunimos as perguntas mais comuns sobre nossa instituição para facilitar seu acesso às
+                            informações. Caso não encontre o que procura, nossa equipe está à disposição para ajudar.
+                        </p>
+                    </header>
+
+                    <div class="accordion custom-accordion" id="faqAccordion">
+                        <!-- Item 1 -->
+                        <article class="accordion-item">
+                            <h3 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    <span class="faq-icon-wrapper"><i class="fas fa-graduation-cap"></i></span>
+                                    <span class="faq-question">Qual é a proposta pedagógica da escola?</span>
+                                    <span class="faq-chevron"><i class="fas fa-chevron-down"></i></span>
+                                </button>
+                            </h3>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p>Nossa proposta pedagógica está baseada no desenvolvimento integral do aluno,
+                                        combinando excelência acadêmica com formação de valores. Utilizamos metodologias
+                                        ativas que incentivam a curiosidade e o pensamento crítico, preparando os
+                                        estudantes para os desafios do século XXI.</p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Item 2 -->
+                        <article class="accordion-item">
+                            <h3 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <span class="faq-icon-wrapper"><i class="fas fa-clock"></i></span>
+                                    <span class="faq-question">Quais são os horários de funcionamento?</span>
+                                    <span class="faq-chevron"><i class="fas fa-chevron-down"></i></span>
+                                </button>
+                            </h3>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p>Nosso horário regular é das 7h30 às 18h, com as seguintes opções:</p>
+                                    <ul class="faq-list">
+                                        <li><strong>Manhã:</strong> 7h30 às 12h (Ensino Fundamental)</li>
+                                        <li><strong>Tarde:</strong> 13h às 17h30 (Educação Infantil)</li>
+                                        <li><strong>Integral:</strong> 7h30 às 18h (com atividades extracurriculares)
+                                        </li>
+                                    </ul>
+                                    <p class="mb-0">Oferecemos também período de acolhimento a partir das 7h.</p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Item 3 -->
+                        <article class="accordion-item">
+                            <h3 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <span class="faq-icon-wrapper"><i class="fas fa-utensils"></i></span>
+                                    <span class="faq-question">A escola oferece alimentação?</span>
+                                    <span class="faq-chevron"><i class="fas fa-chevron-down"></i></span>
+                                </button>
+                            </h3>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p>Sim, temos um serviço completo de alimentação supervisionado por nutricionista:
+                                    </p>
+                                    <ul class="faq-list">
+                                        <li>Cardápio balanceado e adaptado para cada faixa etária</li>
+                                        <li>Opções para crianças com restrições alimentares</li>
+                                        <li>Lanches saudáveis nos intervalos</li>
+                                        <li>Almoço completo para alunos do período integral</li>
+                                    </ul>
+                                    <p class="mb-0">Os pais recebem mensalmente o cardápio detalhado.</p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Item 4 -->
+                        <article class="accordion-item">
+                            <h3 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    <span class="faq-icon-wrapper"><i class="fas fa-bus"></i></span>
+                                    <span class="faq-question">Há serviço de transporte escolar?</span>
+                                    <span class="faq-chevron"><i class="fas fa-chevron-down"></i></span>
+                                </button>
+                            </h3>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p>Temos parceria com empresas especializadas em transporte escolar que oferecem:
+                                    </p>
+                                    <ul class="faq-list">
+                                        <li>Rotas personalizadas conforme a demanda dos pais</li>
+                                        <li>Veículos equipados com cinto de segurança em todos os assentos</li>
+                                        <li>Monitoras treinadas para acompanhar as crianças</li>
+                                        <li>Sistema de rastreamento e comunicação com os pais</li>
+                                    </ul>
+                                    <p class="mb-0">Os valores variam conforme a distância e podem ser parcelados.</p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Item 5 -->
+                        <article class="accordion-item">
+                            <h3 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    <span class="faq-icon-wrapper"><i class="fas fa-star"></i></span>
+                                    <span class="faq-question">Quais atividades extracurriculares são oferecidas?</span>
+                                    <span class="faq-chevron"><i class="fas fa-chevron-down"></i></span>
+                                </button>
+                            </h3>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <div class="row g-4">
+                                        <div class="col-sm-6">
+                                            <h6 class="faq-subtitle-small"><i class="fas fa-futbol me-2"></i>Esportivas
+                                            </h6>
+                                            <ul class="faq-list">
+                                                <li>Judô</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <h6 class="faq-subtitle-small"><i class="fas fa-palette me-2"></i>Culturais
+                                            </h6>
+                                            <ul class="faq-list">
+                                                <li>Ballet</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <p class="mb-0 mt-3">As atividades têm custo adicional e horários específicos.</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.3s">
+                    <aside class="faq-image-card">
+                        <img src="img/faq.webp" class="faq-image" alt="Alunos em atividade escolar" loading="lazy"
+                            width="600" height="800">
+                        <div class="faq-image-overlay"></div>
+                        <div class="faq-image-badge">
+                            <i class="fas fa-headset"></i>
+                            <span>Suporte</span>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQs End -->
+
+    <!-- Team Section -->
+    <section class="team-section py-5" id="nossa-equipe">
+        <div class="team-bg-shape shape-1"></div>
+        <div class="team-bg-shape shape-2"></div>
+
+        <div class="container py-4 position-relative z-2">
+            <header class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s">
+                <span class="badge bg-primary text-white rounded-pill px-4 py-2 mb-3">
+                    <i class="fas fa-crown me-2"></i>Nossa Liderança
+                </span>
+                <h2 class="display-4 text-purple fw-bold mt-3 mb-3">
+                    Conheça os <span class="text-warning">Fundadores</span>
+                </h2>
+                <p class="team-subtitle text-dark mx-auto">
+                    A paixão pela educação e o compromisso com o desenvolvimento integral deram origem ao Centro
+                    Educacional ZOE.
+                </p>
+            </header>
+
+            <div class="row g-5 justify-content-center align-items-center">
+                <div class="col-lg-7 wow fadeInLeft" data-wow-delay="0.3s">
+                    <div class="founders-image-wrapper">
+                        <img src="img/judson-gika.webp" class="founders-img"
+                            alt="Gikarliana Nascimento e Henrique Judson - Fundadores da ZOE" loading="lazy" width="800"
+                            height="600">
+                    </div>
+                </div>
+
+                <div class="col-lg-5 wow fadeInRight" data-wow-delay="0.5s">
+                    <div class="founders-text-wrapper">
+                        <div class="founder-info mb-5">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="founder-icon icon-pink">
+                                    <i class="fas fa-female"></i>
+                                </div>
+                                <div>
+                                    <h3 class="founder-name">Gikarliana Nascimento</h3>
+                                    <p class="founder-role role-pink">Diretora Geral & Fundadora</p>
+                                </div>
+                            </div>
+                            <p class="founder-bio">
+                                Idealizadora do Centro Educacional ZOE, Gikarliana dedica sua trajetória à formação de
+                                crianças com excelência acadêmica e valores sólidos, sendo o coração pedagógico da nossa
+                                instituição.
+                            </p>
+                        </div>
+                        <hr class="founder-divider">
+                        <div class="founder-info mt-5">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="founder-icon icon-blue">
+                                    <i class="fas fa-male"></i>
+                                </div>
+                                <div>
+                                    <h3 class="founder-name">Henrique Judson</h3>
+                                    <p class="founder-role role-blue">Diretor Administrativo & Fundador</p>
+                                </div>
+                            </div>
+                            <p class="founder-bio">
+                                Responsável pela gestão, inovação e infraestrutura da escola, Henrique garante que o
+                                ambiente ZOE seja sempre acolhedor, seguro e preparado para o futuro.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Start -->
+    <footer class="footer-custom-bg wow fadeIn" data-wow-delay="0.2s">
+        <div class="footer-overlay"></div>
+        <div class="container pt-5 pb-4 position-relative z-2">
+            <div class="row g-4 g-lg-5">
+                <div class="col-lg-4 col-xl-3 text-center text-lg-start">
+                    <div class="footer-brand">
+                        <a href="index.html" class="d-inline-block mb-4">
+                            <img src="img/logo_centro_educacional_zoe.webp" alt="Logo Centro Educacional ZOE"
+                                class="footer-logo img-fluid" loading="lazy" width="160" height="160">
+                        </a>
+                        <p class="text-white-50 mb-4 d-none d-lg-block">
+                            Formando mentes brilhantes e corações compassivos através de uma educação por princípios.
+                        </p>
+                        <div class="footer-social d-flex justify-content-center justify-content-lg-start gap-3">
+                            <a href="https://wa.me/558488166544?text=Olá,%20gostaria%20de%20mais%20informações"
+                                target="_blank" class="social-btn" aria-label="WhatsApp">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <a href="https://www.instagram.com/centroedzoe/" target="_blank" class="social-btn"
+                                aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="footer-links">
+                        <h4 class="footer-title">Links Rápidos</h4>
+                        <ul class="list-unstyled mb-0">
+                            <li><a href="#" class="footer-link"><i class="fas fa-chevron-right"></i> Início</a></li>
+                            <li><a href="index.html#quem-somos" class="footer-link"><i class="fas fa-chevron-right"></i> Quem
+                                    Somos</a></li>
+                            <li><a href="index.html#nossos-diferenciais" class="footer-link"><i class="fas fa-chevron-right"></i>
+                                    Nossos Diferenciais</a></li>
+                            <li><a href="politica-privacidade.html" class="footer-link"><i class="fas fa-chevron-right"></i> Políticas de
+                                    Privacidade</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="footer-hours">
+                        <h4 class="footer-title">Horários de Atendimento</h4>
+                        <ul class="list-unstyled mb-0">
+                            <li class="d-flex align-items-start mb-3">
+                                <i class="far fa-calendar-alt text-primary mt-1 me-3"></i>
+                                <div>
+                                    <span class="d-block text-white fw-bold">Segunda a Sexta</span>
+                                    <span class="text-white">07h às 18h</span>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-start">
+                                <i class="far fa-calendar-times text-primary mt-1 me-3"></i>
+                                <div>
+                                    <span class="d-block text-white fw-bold">Sáb, Dom e Feriados</span>
+                                    <span class="text-white">Fechado</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-12 col-xl-3">
+                    <div class="footer-contact">
+                        <h4 class="footer-title">Fale Conosco</h4>
+                        <ul class="list-unstyled mb-0">
+                            <li class="d-flex align-items-start mb-3">
+                                <i class="fas fa-map-marker-alt text-primary mt-1 me-3"></i>
+                                <span class="text-white">Rua Pedra Branca, 747<br>Natal/RN</span>
+                            </li>
+                            <li class="d-flex align-items-center mb-3">
+                                <i class="fas fa-phone-alt text-primary me-3"></i>
+                                <a href="https://wa.me/558488166544" target="_blank" class="footer-link p-0">(84)
+                                    98816-6544</a>
+                            </li>
+                            <li class="d-flex align-items-center mb-3">
+                                <i class="fas fa-envelope text-primary me-3"></i>
+                                <a href="mailto:secretaria@centroeducacionalzoe.com.br"
+                                    class="footer-link p-0 text-break">secretaria@centroeducacionalzoe.com.br</a>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <i class="fas fa-file-invoice text-primary me-3"></i>
+                                <span class="text-white">CNPJ: 43.767.733/0001-69</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyright position-relative z-2">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        <p class="mb-0 text-white">
+                            <i class="far fa-copyright text-primary me-2"></i>
+                            <span id="ano-atual"></span> Todos os direitos reservados ao <strong
+                                class="text-white">Centro Educacional ZOE</strong>.
+                        </p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <p class="mb-0 text-white">
+                            Desenvolvido por <a href="#"
+                                class="text-white fw-bold text-decoration-none hover-text-primary">Alisson Aguiar -
+                                Projetos Digitais</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top" aria-label="Voltar ao topo"><i
+            class="fa fa-arrow-up"></i></a>
+
+    <!-- ============================================
+         SCRIPTS OTIMIZADOS
+         ============================================ -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const loadBtn = document.getElementById('loadInstagramBtn');
+            const playIcon = document.getElementById('playIconOverlay');
+            const realEmbed = document.getElementById('instagramRealEmbed');
+
+            function activateInstagram() {
+                // Esconde a imagem
+                if (loadBtn) loadBtn.style.display = 'none';
+                // Esconde o ícone
+                if (playIcon) playIcon.style.display = 'none';
+
+                // Mostra o embed verdadeiro
+                realEmbed.classList.remove('d-none');
+
+                // Carrega o script do Instagram apenas agora
+                const script = document.createElement('script');
+                script.src = "//www.instagram.com/embed.js";
+                script.async = true;
+                script.onload = function () {
+                    if (window.instgrm) {
+                        window.instgrm.Embeds.process();
+                    }
+                };
+                document.body.appendChild(script);
+            }
+
+            // Se a imagem for clicada
+            if (loadBtn) {
+                loadBtn.addEventListener('click', activateInstagram);
+            }
+
+            // Se o ícone de play for clicado
+            if (playIcon) {
+                playIcon.addEventListener('click', activateInstagram);
+            }
+        });
+    </script>
+
+    <!-- Bibliotecas carregadas com Defer para não travar a renderização -->
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script defer src="lib/wow/wow.min.js"></script>
+    <script defer src="lib/easing/easing.min.js"></script>
+    <script defer src="lib/waypoints/waypoints.min.js"></script>
+    <script defer src="lib/counterup/counterup.min.js"></script>
+    <script defer src="lib/lightbox/js/lightbox.min.js"></script>
+    <script defer src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script defer src="js/main.js"></script>
+    <script defer src="js/roadmap.js"></script>
+</body>
+
+</html>
