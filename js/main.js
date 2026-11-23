@@ -352,7 +352,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // Se não fechou, abre o modal após 1.5 segundos (para não atrapalhar o carregamento do PageSpeed)
         setTimeout(() => {
             matriculaModal.show();
-        }, 1500);
+        }, 3500);
     }
 
     // Quando o modal for fechado (pelo X ou clicando fora)
