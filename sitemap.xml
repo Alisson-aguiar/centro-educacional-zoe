@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+    <!-- Página Inicial -->
+    <url>
+        <loc>https://centroedzoe.com.br/</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Páginas Institucionais e de Serviços -->
+    <url>
+        <loc>https://centroedzoe.com.br/politica-privacidade.html</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+    <url>
+        <loc>https://centroedzoe.com.br/tempo_integral.html</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Páginas dos Níveis de Ensino -->
+    <url>
+        <loc>https://centroedzoe.com.br/nivel_II.html</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://centroedzoe.com.br/nivel_III.html</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://centroedzoe.com.br/nivel_IV.html</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://centroedzoe.com.br/nivel_V.html</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Páginas dos Anos do Ensino Fundamental -->
+    <url>
+        <loc>https://centroedzoe.com.br/1_ano.html</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://centroedzoe.com.br/2_ano.html</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://centroedzoe.com.br/3_ano.html</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://centroedzoe.com.br/4_ano.html</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://centroedzoe.com.br/5_ano.html</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://centroedzoe.com.br/6_ano.html</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://centroedzoe.com.br/7_ano.html</loc>
+        <lastmod>2026-11-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+</urlset>
